@@ -3,6 +3,7 @@ import { getAllPeople } from "./service.js";
 window.onload = () => {
 people();
 
+
 };
 
 const people = () => {

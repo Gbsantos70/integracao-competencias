@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Star+Jedi&display=swap');
+
+
+
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -8,13 +12,17 @@ header {
 color: #ffd700;
 text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
 
+}
 
+h1{
+    font-family: 'Star Jedi', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 
 body {
     margin: 0;
-    background-image: url(img/background.jpg);
+    background-image: url(img/Star\ Wars\ Wallpaper\ 1680x1050\ Star\ Wars\ Dark\ Fight.jpg);
 background-size: cover;
 height: 100vh;
 margin: 0;
@@ -241,4 +249,75 @@ margin: 0;
 
 div.arrow{
     color: #ffd700;
+}
+
+/* styles.css */
+.card {
+  /* Seus estilos para o card padrão */
+}
+
+.card-vader {
+  /* Seus estilos para o card do Vader */
+}
+
+.card-obi {
+  /* Seus estilos para o card do Obi-Wan */
+}
+
+.img {
+  /* Seus estilos para a imagem */
+}
+
+.content {
+  /* Seus estilos para o conteúdo */
+}
+
+.arrow {
+  /* Seus estilos para a seta */
+}
+
+.rating {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.star {
+  font-size: 24px;
+  color: #ffd700;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.star:hover,
+.star.active {
+  color: #ffcc00;
+}
+
+
+text-align: center;
+margin-top: 10px;
+}
+
+.stars {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.star {
+font-size: 24px;
+color: #ffd700;
+cursor: pointer;
+margin: 0 5px;
+}
+
+.star:hover,
+.star.active {
+color: #ffcc00;
 }

@@ -9,7 +9,6 @@
         
 //     }
 // };
-
 var URL = "https://swapi.dev/api/people/";
 
 

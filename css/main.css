@@ -18,7 +18,8 @@ header {
 }
 
 h1{
-    box-shadow: white 10px;
+    text-shadow: white 10px;
+    padding-top: 10px;
 }
 
 body {

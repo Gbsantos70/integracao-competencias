@@ -46,7 +46,7 @@ const createCardElement = (person) => {
     <p class="desc">Birth Year: ${person.birth_year}</p>
     <p class="desc">Eye color: ${person.eye_color}</p>
     <p class="desc">Hair color: ${person.hair_color}</p>
-    <p class="desc">: ${person.height}</p>
+    <p class="desc">altura: ${person.height}</p>
   `;
 
   const ratingElement = document.createElement("div");

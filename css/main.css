@@ -14,14 +14,11 @@ header {
     margin-bottom: 20px;
     color: #ffd700;
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
-
 }
 
-h1 {
-    font-family: 'Star Jedi', sans-serif;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+h1{
+    box-shadow: white 10px;
 }
-
 
 body {
     margin: 0;
@@ -304,3 +301,5 @@ footer {
     color: white;
     text-align: center;
 }
+
+

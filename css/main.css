@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Star+Jedi&display=swap');
 
 
+#data-container {
+    margin-bottom: 60px;
+}
 
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -9,12 +12,12 @@
 header {
     text-align: center;
     margin-bottom: 20px;
-color: #ffd700;
-text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    color: #ffd700;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
 
 }
 
-h1{
+h1 {
     font-family: 'Star Jedi', sans-serif;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
@@ -23,9 +26,9 @@ h1{
 body {
     margin: 0;
     background-image: url(img/Star\ Wars\ Wallpaper\ 1680x1050\ Star\ Wars\ Dark\ Fight.jpg);
-background-size: cover;
-height: 100vh;
-margin: 0;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
 }
 
 .container {
@@ -35,6 +38,8 @@ margin: 0;
     min-height: 100vh;
     color: white;
 }
+
+
 
 .card {
     background-image: linear-gradient(#333, #333);
@@ -47,7 +52,10 @@ margin: 0;
     justify-content: center;
     cursor: pointer;
     margin: 10px;
+    
 }
+
+
 .card-vader {
     background-image: linear-gradient(#333, #333);
     overflow: hidden;
@@ -60,6 +68,7 @@ margin: 0;
     cursor: pointer;
     margin: 10px;
 }
+
 .card-obi {
     background-image: linear-gradient(#333, #333);
     overflow: hidden;
@@ -74,7 +83,7 @@ margin: 0;
 }
 
 .card .img {
-    background-image: url(img/LUKE.jpg);
+    background-image: url(img/LUKE2.jpg);
     background-position: center;
     background-size: cover;
     width: 360px;
@@ -85,6 +94,7 @@ margin: 0;
     opacity: .7;
     transition: all .5s;
 }
+
 .card-vader .img {
     background-image: url(img/darth-vader-001.jpg);
     background-position: center;
@@ -97,6 +107,7 @@ margin: 0;
     opacity: .7;
     transition: all .5s;
 }
+
 .card-obi .img {
     background-image: url(img/obi-wan-spin-off-star-wars.jpg);
     background-position: center;
@@ -114,10 +125,12 @@ margin: 0;
     opacity: 1;
     height: 200px;
 }
+
 .card-vader:hover .img {
     opacity: 1;
     height: 200px;
 }
+
 .card-obi:hover .img {
     opacity: 1;
     height: 200px;
@@ -129,12 +142,14 @@ margin: 0;
     font-weight: 100;
     color: white;
 }
+
 .card-vader .img span {
     font-size: 24px;
     font-style: italic;
     font-weight: 100;
     color: white;
 }
+
 .card-obi .img span {
     font-size: 24px;
     font-style: italic;
@@ -145,9 +160,11 @@ margin: 0;
 .card .content p {
     margin-bottom: 0;
 }
+
 .card-vader .content p {
     margin-bottom: 0;
 }
+
 .card-obi .content p {
     margin-bottom: 0;
 }
@@ -159,8 +176,8 @@ margin: 0;
     height: 0;
     transition: all .5s;
     transform: translateY(30px);
-
 }
+
 .card-obi .content {
     padding: 0 20px;
     overflow: hidden;
@@ -169,6 +186,7 @@ margin: 0;
     transform: translateY(30px);
 
 }
+
 .card-vader .content {
     padding: 0 20px;
     overflow: hidden;
@@ -183,11 +201,13 @@ margin: 0;
     height: 260px;
     transform: translateY(0px);
 }
+
 .card-vader:hover .content {
     padding: 20px;
     height: 260px;
     transform: translateY(0px);
 }
+
 .card-obi:hover .content {
     padding: 20px;
     height: 260px;
@@ -201,11 +221,13 @@ margin: 0;
     color: white;
     font-weight: bold;
 }
+
 .card-obi .content .title {
     font-size: 24px;
     color: white;
     font-weight: bold;
 }
+
 .card-vader .content .title {
     font-size: 24px;
     color: white;
@@ -217,8 +239,9 @@ margin: 0;
     font-weight: 100;
     opacity: .7;
     color: #ffd700;
-   font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .card-vader .content .desc {
     font-size: 14px;
     font-weight: 100;
@@ -226,6 +249,7 @@ margin: 0;
     color: #ffd700;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .card-obi .content .desc {
     font-size: 14px;
     font-weight: 100;
@@ -238,86 +262,45 @@ margin: 0;
     padding: 15px;
     font-size: 28px;
 }
+
 .card-vader .arrow {
     padding: 15px;
     font-size: 28px;
 }
+
 .card-obi .arrow {
     padding: 15px;
     font-size: 28px;
 }
 
-div.arrow{
+div.arrow {
     color: #ffd700;
 }
 
-/* styles.css */
-.card {
-  /* Seus estilos para o card padrão */
-}
-
-.card-vader {
-  /* Seus estilos para o card do Vader */
-}
-
-.card-obi {
-  /* Seus estilos para o card do Obi-Wan */
-}
-
-.img {
-  /* Seus estilos para a imagem */
-}
-
-.content {
-  /* Seus estilos para o conteúdo */
-}
-
-.arrow {
-  /* Seus estilos para a seta */
-}
 
 .rating {
-  text-align: center;
-  margin-top: 10px;
-}
-
-.stars {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
 }
 
 .star {
-  font-size: 24px;
-  color: #ffd700;
-  cursor: pointer;
-  margin: 0 5px;
+    cursor: pointer;
+    font-size: 24px;
+    color: #ddd;
+    
 }
 
-.star:hover,
-.star.active {
-  color: #ffcc00;
+.star.selected {
+    color: #ffd700;
+    
 }
 
-
-text-align: center;
-margin-top: 10px;
-}
-
-.stars {
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
-.star {
-font-size: 24px;
-color: #ffd700;
-cursor: pointer;
-margin: 0 5px;
-}
-
-.star:hover,
-.star.active {
-color: #ffcc00;
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+    color: white;
+    text-align: center;
 }

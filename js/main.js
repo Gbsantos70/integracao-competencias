@@ -42,11 +42,11 @@ const createCardElement = (person) => {
   contentElement.className = "content";
   contentElement.innerHTML = `
     <span class="title">${person.name}</span>
-    <p class="desc">Gender: ${person.gender}</p>
-    <p class="desc">Birth Year: ${person.birth_year}</p>
-    <p class="desc">Eye color: ${person.eye_color}</p>
-    <p class="desc">Hair color: ${person.hair_color}</p>
-    <p class="desc">altura: ${person.height}</p>
+    <p class="desc">Genero: ${person.gender}</p>
+    <p class="desc">Ano de nascimento: ${person.birth_year}</p>
+    <p class="desc">Cor dos olhos: ${person.eye_color}</p>
+    <p class="desc">Cor de cabelo: ${person.hair_color}</p>
+    <p class="desc">Altura: ${person.height}</p>
   `;
 
   const ratingElement = document.createElement("div");
